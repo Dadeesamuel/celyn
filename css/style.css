@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+html{
+ scroll-behavior: smooth;
+}
+
  /* css for tag names */
 body{
     background: black;
@@ -41,6 +45,20 @@ p {
     color: #465b52;
     margin: 15px 0 20px 0;
 }
+button.normal{
+font-size: 14px;
+font-weight: 600;
+padding: 15px 30px;
+color: black;
+background-color: white;
+border-radius: 10px;
+cursor: pointer;
+border: none;
+outline: none;
+transition: 0.3s ease-in-out;
+}
+
+
 
  /* css for nav bar */
 nav {
@@ -91,6 +109,8 @@ nav ul li a:hover::after {
     width: 100%;
    
 }
+
+
       /* css for home page */
       .home{
         background-image: url(/image/bg-img02.jpg);
@@ -126,6 +146,8 @@ nav ul li a:hover::after {
             background-color: rgb(216, 53, 129);
             transition: ease-in-out 1.0s;
     }
+
+
           /* css for features */
      .section-p1{
             padding: 40px 80px;
@@ -175,6 +197,9 @@ background-color: rgb(57, 95, 97);
 .features .feature-box:nth-child(6) h6 {
     background-color: rgb(231, 0, 0);
 }
+
+
+/* css for product section */
 .product1{
     text-align: center;
 }
@@ -243,3 +268,37 @@ font-size: 15px;
     background-color: #ff004f;
 }
 
+
+/* css for banner */
+.section-m1{
+margin: 40px 0px;
+}
+.banner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/image/banner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner2 h4{
+    color: white;
+    font-size: 20px;
+}
+.banner2 h2{
+    color: white;
+    font-size: 36px;
+    padding: 10px 0;
+}
+.banner2 h2 span{
+    color: black;
+}
+.banner2 button:hover {
+    background-color: #ff004f;
+
+}
