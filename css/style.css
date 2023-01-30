@@ -50,7 +50,7 @@ h6 {
 
 p {
     font-size: 20px;
-    color: #465b52;
+    color: white;
     margin: 15px 0 20px 0;
 }
 
@@ -71,7 +71,8 @@ button.normal {
 
 /* css for nav bar */
 nav {
-    position: sticky;
+    width: 100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -454,6 +455,7 @@ background-color: goldenrod;
 .newsletter p{
     font-size: 14px;
     font-weight: 600;
+    color: #486257;
 }
 
  .newsletter #mail{
@@ -485,3 +487,66 @@ background-color: goldenrod;
     display: flex;
     width: 35%;
  }
+/* css for  footer section */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+footer .log{
+    width: 80px;
+    margin-bottom: 30px;
+}footer .app {
+    width: 80px;
+}
+footer .play {
+    width: 80px;
+    height: 28px;
+}
+footer .pay {
+    width: 220px;
+    height: 90px;
+}
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #2b4a3d;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install img{
+   margin: 10px 0 15px 0;
+    border-radius: 6px;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: #31e49a;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
