@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
    
     <script src="https://kit.fontawesome.com/bf30d47bb2.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+   
 
     <title>celyn</title>
 </head>
@@ -16,14 +16,22 @@
     <div class="container">
         <nav >
                 <img src="image/Celyn-logo.png" alt="logo" class="logo">
-                <ul class="link">
-                    <li><a href="#" class="active">Home</a></li>
+                <div>
+                 <ul id="navbar" class="link">
+                    <li><a class="active" href="#">Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-shop"></i></a></li>
-                </ul>
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-shop" id="shop"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                 </ul>
+                </div>
+              <div class="mobile">
+                <a href="#"><i class="fa-solid fa-bag-shopping" id="bag"></i></a>
+                <i id="bars" class="fa-solid fa-bars"></i>
+                
+              </div>
         </nav>
     </div>
 
@@ -423,6 +431,7 @@
     <h4>Contact</h4>
     <p><strong>Address:</strong> 2a ifeoluwa daniel street,Magodo phase 1, lagos state.</p>
     <p><strong>Phone:</strong> 08107042253 </p>
+    <p><strong>Email:</strong> celyn-collection@gmail.com </p>
     <p><strong>Hours:</strong> 9am - 5pm</p>
     <div class="follow">
       <h4>Follow Us</h4>
@@ -468,5 +477,7 @@
 
 
 
+
+<script src="js/script.js"></script>
 </body>
 </html>
