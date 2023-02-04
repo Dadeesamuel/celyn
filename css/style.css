@@ -137,7 +137,6 @@ nav ul li a:hover::after {
 
 /* css for home page */
 .home {
-    background-image: url(/image/bg-img02.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -343,7 +342,7 @@ color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/image/banner.jpg);
+    /* background-image: url(image/banner.jpg); */
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -383,16 +382,16 @@ color: white;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(/image/MEN-1.jpg);
+    /* background-image: url(image/MEN-1.jpg); */
     min-width: 650px;
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
 }
-.sm-banner .banner-box:nth-last-child(1) {
-    background-image: url(/image/WOMEN\ -2.jpg);
-}
+/* .sm-banner .banner-box:nth-last-child(1) {
+    background-image: url(image/WOMEN\ -2.jpg);
+} */
 .sm-banner h4{
     color: #121010;
     font-size: 20px;
@@ -436,7 +435,7 @@ background-color: goldenrod;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(/image/casual.jpg);
+    /* background-image: url(image/casual.jpg); */
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -454,13 +453,13 @@ background-color: goldenrod;
     font-weight: 800;
     font-size: 15px;
 }
-.banner3 .banner-box:nth-child(2){
-    background-image: url(/image/men2.jpg);
-}
-.banner3 .banner-box:nth-child(3){
-    background-image: url(/image/men0.jpeg);
+/* .banner3 .banner-box:nth-child(2){
+    background-image: url(image/men2.jpg);
+} */
+/* .banner3 .banner-box:nth-child(3){
+    background-image: url(image/men0.jpeg);
     color: black;
-}
+} */
 
  /* newsletter section */
  .newsletter{
